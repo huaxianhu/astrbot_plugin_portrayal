@@ -139,8 +139,7 @@ class PortrayalPlugin(Star):
         try:
             llm_respond = await self.get_llm_respond(nickname, gender, texts)
             if llm_respond:
-                url = await self.text_to_image(llm_respond)
-                yield event.image_result(url)
+                yield event.plain_result(llm_respond)
                 del self.texts_cache[target_id]
             else:
                 yield event.plain_result("LLM响应为空")

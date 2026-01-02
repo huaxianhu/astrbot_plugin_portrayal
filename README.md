@@ -5,7 +5,7 @@
 
 # astrbot_plugin_portrayal
 
-_✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 画像插件 ✨_  
+_✨ 人物画像插件 ✨_  
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -13,6 +13,8 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 画像插件 ✨_
 [![GitHub](https://img.shields.io/badge/作者-Zhalslar-blue)](https://github.com/Zhalslar)
 
 </div>
+
+> **注：**  **画像** 功能已改为纯文本输出，需要转图片的自行通过框架或其他插件的文转图来实现，这里推荐使用：[输出增强插件](https://github.com/Zhalslar/astrbot_plugin_outputpro)
 
 ## 💡 介绍
 
